@@ -6,10 +6,13 @@
   <TheAbout />
 
   <TheServices />
+
+  <TheCarousel />
 </template>
 
 <script setup>
 import TheAbout from './components/TheAbout.vue'
+import TheCarousel from './components/TheCarousel.vue'
 import TheHeader from './components/TheHeader.vue'
 import TheIcons from './components/TheIcons.vue'
 import TheServices from './components/TheServices.vue'
