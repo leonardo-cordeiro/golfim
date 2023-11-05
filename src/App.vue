@@ -8,11 +8,14 @@
   <TheServices />
 
   <TheCarousel />
+
+  <TheFooter />
 </template>
 
 <script setup>
 import TheAbout from './components/TheAbout.vue'
 import TheCarousel from './components/TheCarousel.vue'
+import TheFooter from './components/TheFooter.vue'
 import TheHeader from './components/TheHeader.vue'
 import TheIcons from './components/TheIcons.vue'
 import TheServices from './components/TheServices.vue'
