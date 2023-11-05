@@ -9,10 +9,40 @@
           a piscina
         </span>
       </h1>
-      <p class="size-20">Para evitar desperdício de água, a troca de azulejos para piscinas sem esvaziá-la é uma ótima solução</p>
-      <p class="size-20 q-mt-xl q-pt-md">
-        Esse processo de fazer a troca de azulejos para piscinas, sem esvaziá-la é necessário ter larga experiência e treinamento como nós!
+      <p class="size-18 text-montserrat-400">
+        Para evitar desperdício de água, a troca de
+        <br />
+        azulejos para piscinas sem esvaziá-la é uma
+        <br />
+        ótima solução
       </p>
+      <p class="size-18 q-mt-lg q-pt-lg text-montserrat-400">
+        Esse processo de fazer a troca de azulejos para
+        <br />
+        piscinas, sem esvaziá-la é necessário ter larga experiência e treinamento como nós!
+      </p>
+
+      <div class="q-ml-xl q-mt-lg q-pt-md">
+        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center q-ml-lg">
+          <q-icon name="verified" size="lg" color="info" />
+          <span class="q-ml-sm">A troca de azulejos para piscinas é feita por mergulhadores profissionais treinados.</span>
+        </p>
+
+        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center q-ml-lg">
+          <q-icon name="verified" size="lg" color="info" />
+          <span class="q-ml-sm">
+            Logo após a conclusão do trabalho, a piscina
+            <br />
+            já está liberada para uso normal.
+          </span>
+        </p>
+
+        <q-btn class="full-width q-my-md" padding="14px" rounded color="info">
+          Quer saber como isso funciona?
+          <br />
+          Fale Conosco
+        </q-btn>
+      </div>
     </div>
   </div>
 </template>
@@ -29,14 +59,10 @@
 
   .content {
     text-align: right;
-    margin: 5rem 20rem 20rem auto;
+    margin: 4rem 20rem 20rem auto;
     width: 500px;
     h1 {
       line-height: 5rem;
-    }
-    p {
-      font-weight: 400;
-      font-family: 'Montserrat', sans-serif;
     }
   }
 }
