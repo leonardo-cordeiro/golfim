@@ -53,7 +53,7 @@
 .wrap {
   height: 100vh;
   width: 100vw;
-  background: url('img/background-2.webp');
+  background: url('public/img/background-2.webp');
   background-repeat: no-repeat;
   background-size: cover;
 

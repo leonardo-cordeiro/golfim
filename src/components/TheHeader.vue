@@ -5,7 +5,8 @@
         <div class="col-md-7 col-xs-12 q-pr-md">
           <q-img src="img/logo_golfim.webp" alt="logo" width="10rem" />
           <h1 class="text-white text-bold text-raleway" style="font-size: 50px">
-            Reformas de <span style="text-decoration: underline">Piscinas</span>
+            Reformas de
+            <span style="text-decoration: underline">Piscinas</span>
           </h1>
           <h2 class="text-h5 text-white text-montserrat" style="font-size: 22px">
             Consertos, Pinturas e Reformas de Piscinas com profissionais 100% qualificados!
@@ -15,14 +16,7 @@
           </h3>
         </div>
         <div class="col-md-5 col-xs-12 text-center">
-          <q-btn
-            label="(21) 96483-3479"
-            color="primary"
-            icon="call"
-            size="lg"
-            href="tel:+5521964833479"
-            rounded
-          />
+          <q-btn label="(21) 96483-3479" color="primary" icon="call" size="lg" href="tel:+5521964833479" rounded />
           <q-card class="q-mt-xl">
             <q-card-section class="text-center">
               <h4 class="text-h5 text-secondary text-bold">Solicite um Orçamento</h4>
@@ -30,13 +24,7 @@
 
             <q-card-section class="q-px-xl">
               <q-form class="q-gutter-y-sm" @submit="notify">
-                <q-input
-                  rounded
-                  v-model="name"
-                  outlined
-                  label="Nome Completo"
-                  :rules="[(val) => !!val || 'Insira seu Nome']"
-                />
+                <q-input rounded v-model="name" outlined label="Nome Completo" :rules="[(val) => !!val || 'Insira seu Nome']" />
                 <q-input
                   rounded
                   v-model="whatsapp"
@@ -45,14 +33,7 @@
                   :rules="[(val) => !!val || 'Insira Seu Whatsapp']"
                   mask="(##) #####-####"
                 />
-                <q-btn
-                  rounded
-                  label="Enviar"
-                  color="primary"
-                  class="full-width q-mb-xl"
-                  padding="14px"
-                  type="submit"
-                />
+                <q-btn rounded label="Enviar" color="primary" class="full-width q-mb-xl" padding="14px" type="submit" />
               </q-form>
             </q-card-section>
           </q-card>
@@ -84,7 +65,7 @@ function notify() {
     height: 80%;
     width: 100%;
     padding: 12rem;
-    background-image: url('img/background-header.webp');
+    background-image: url('public/img/background-header.webp');
     background-repeat: no-repeat;
     background-size: cover;
     @media screen and (max-width: 920px) {
