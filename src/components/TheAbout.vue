@@ -1,10 +1,11 @@
 <template>
   <div class="wrap">
     <div class="content">
-      <h1 class="text-h3 text-info text-raleway q-pt-xl">
+      <div class="flex q-mr-xl">
+      <h1 class="text-h3 text-info text-raleway ">
         Troca de azulejos
         <span style="text-decoration: underline">
-          sem esvaziar
+          <br>sem esvaziar
           <br />
           a piscina
         </span>
@@ -19,16 +20,14 @@
       <p class="size-18 q-mt-lg q-pt-lg text-montserrat-400">
         Esse processo de fazer a troca de azulejos para
         <br />
-        piscinas, sem esvaziá-la é necessário ter larga experiência e treinamento como nós!
+        piscinas, sem esvaziá-la é necessário ter larga <br>experiência e treinamento como nós!
       </p>
-
-      <div class="q-ml-xl q-mt-lg q-pt-md">
-        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center q-ml-lg">
+        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center">
           <q-icon name="verified" size="lg" color="info" />
-          <span class="q-ml-sm">A troca de azulejos para piscinas é feita por mergulhadores profissionais treinados.</span>
+          <span class="q-ml-sm">A troca de azulejos para piscinas é feita por <br>mergulhadores profissionais treinados.</span>
         </p>
 
-        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center q-ml-lg">
+        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center">
           <q-icon name="verified" size="lg" color="info" />
           <span class="q-ml-sm">
             Logo após a conclusão do trabalho, a piscina
@@ -36,8 +35,7 @@
             já está liberada para uso normal.
           </span>
         </p>
-
-        <q-btn class="full-width q-my-md" padding="14px" rounded color="info">
+        <q-btn class="q-ml-xl q-my-md"  rounded color="info">
           Quer saber como isso funciona?
           <br />
           Fale Conosco
@@ -51,19 +49,26 @@
 
 <style lang="scss" scoped>
 .wrap {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background: url('img/background-2.webp');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; // Altere para "contain"
 
   .content {
     text-align: right;
-    margin: 4rem 20rem 20rem auto;
-    width: 500px;
+    margin-left: 50%;
+    width: 50%;
     h1 {
       line-height: 5rem;
     }
   }
+  @media screen and (max-width: 600px) {
+    .content {
+      margin-left: 10%;
+      width: 90%; // 
+    }
+  }
+  
 }
 </style>

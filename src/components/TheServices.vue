@@ -16,27 +16,28 @@
       </p>
     </div>
 
-    <div class="q-pa-xl q-mt-xl">
+    <div class="q-pa-lg q-mt-xl">
       <img src="img/img-servico1.webp" alt="" />
     </div>
   </section>
 
-  <section class="flex q-pa-lg justify-center">
-    <div class="q-pa-xl q-mt-xl">
-      <img src="img/img-servico2.webp" alt="" />
-    </div>
-    <div class="q-pa-lg text-right">
-      <h1 class="text-h4 text-info text-raleway q-pt-xl">Vazamento</h1>
-      <p class="size-18 text-montserrat-400">
-        Serviço de
-        <span class="text-bold">reparo hidráulico, precedido de visita técnica</span>
-        <br />
-        para detecção de vazamento com investigação a partir do
-        <br />
-        hidrômetro.
-      </p>
-    </div>
-  </section>
+  <section  class="aaa flex q-pa-lg justify-center">
+  <div class="q-pa-lg text-right">
+    <h1 class="text-h4 text-info text-raleway q-pt-xl">Vazamento</h1>
+    <p class="size-18 text-montserrat-400">
+      Serviço de
+      <span class="text-bold">reparo hidráulico, precedido de visita técnica</span>
+      <br />
+      para detecção de vazamento com investigação a partir do
+      <br />
+      hidrômetro.
+    </p>
+  </div>
+  <div class="q-pa-xl q-mt-xl order-sm-1">
+    <img src="img/img-servico2.webp" alt="" />
+  </div>
+</section>
+
 
   <section class="flex q-pa-lg bg-dark justify-center">
     <div class="q-pa-lg">
@@ -67,8 +68,15 @@
 <style lang="scss" scoped>
 img {
   border-radius: 10px;
-  width: 450px;
-  height: 250px;
+  width: 26rem;
+  height: 16rem;
   border: 1px solid black;
 }
+.aaa{
+  flex-direction: row-reverse;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: rom;
+  }
+} 
 </style>
