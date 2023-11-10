@@ -32,7 +32,7 @@
           </q-card>
         </div>
         <a class="whatsapp-button" href="https://api.whatsapp.com/send?phone=5521964833479" target="_blank">
-          <q-img  alt="WhatsApp" width="50px" />
+          <q-img  src="public/img/whatsapp.svg"  loading="eager" alt="WhatsApp" />
         </a>
       </div>
     </div>
@@ -75,9 +75,9 @@ function notify() {
 
 .whatsapp-button {
   position: fixed;
-  background-image: url('public/img/whatsapp.svg');
-  background-size: contain;
-  width: 5rem;
+  // background-image: url('public/img/whatsapp.svg');
+  background-size: cover;
+  width: 6rem;
   background-repeat: no-repeat;
   bottom: 50px;
   right: 50px;
