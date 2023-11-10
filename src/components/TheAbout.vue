@@ -62,6 +62,7 @@
   background: url('/img/background-2.webp?');
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
   display: flex;
   flex-direction: column;
 
@@ -74,13 +75,12 @@
     }
   }
   @media screen and (max-width: 600px) {
+    background-position:  center;
     .content {
       margin-left: 10%;
       width: 90%; //
     }
-    .wrap{
-      background-size: contain;
-    }
+   
   }
 }
 </style>
