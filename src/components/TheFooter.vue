@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-info flex justify-between q-px-xl q-py-sm">
+  <footer class="footer bg-info flex justify-between q-px-xl q-py-sm">
     <div class="q-my-auto">
       <img src="img/logo_golfim.webp" alt="Logo Golfim" width="200rem" />
     </div>
@@ -27,3 +27,8 @@
     </div>
   </footer>
 </template>
+<style scoped>
+.footer{
+  width: 100%;
+}
+</style>

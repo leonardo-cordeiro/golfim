@@ -16,7 +16,7 @@
       </p>
     </div>
 
-    <div class="q-pa-lg q-mt-xl">
+    <div class="q-pa-md q-mt-xl">
       <img src="img/img-servico1.webp" alt="" />
     </div>
   </section>
@@ -33,7 +33,7 @@
       hidrômetro.
     </p>
   </div>
-  <div class="q-pa-xl q-mt-xl order-sm-1">
+  <div class="q-pa-md q-mt-xl">
     <img src="img/img-servico2.webp" alt="" />
   </div>
 </section>
@@ -57,7 +57,7 @@
       </p>
     </div>
 
-    <div class="q-ml-xl q-pa-xl q-mt-xl">
+    <div class="q-pa-md q-mt-xl">
       <img src="img/img-servico3.webp" alt="" />
     </div>
   </section>
