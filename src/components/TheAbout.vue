@@ -42,12 +42,13 @@
             já está liberada para uso normal.
           </span>
         </p>
-
+       <a href="https://api.whatsapp.com/send?phone=5521964833479">
         <q-btn class="q-ml-xl q-my-md" rounded color="info">
           Quer saber como isso funciona?
           <br />
           Fale Conosco
         </q-btn>
+      </a>
       </div>
     </div>
   </div>
