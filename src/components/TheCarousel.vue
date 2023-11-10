@@ -72,7 +72,8 @@ export default {
 }
 @media (max-width: 700px) {
   .framed-image {
-    border: 5px solid #075AA8; /* Ajuste a espessura da borda para 8px em telas menores que 700px */
+    border: 5px solid #075AA8;
+     /* Ajuste a espessura da borda para 8px em telas menores que 700px */
   }
 }
 

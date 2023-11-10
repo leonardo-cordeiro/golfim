@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-evenly items-center text-montserrat q-pb-xl display q-pt-xl q-mt-xl q-mr-xl q-ml-xl">
+  <div class="flex justify-evenly items-center text-montserrat q-pb-xl q-pt-xl q-mt-xl q-mr-xl q-ml-xl">
     <div class="icon">
       <q-img class="img" src="img/icone-1.png" fit="contain" />
       <p>30 anos no mercado</p>
@@ -26,9 +26,9 @@
   width: 10rem;
   max-width: 50%;
   text-align: center;
-  align-content: center;
   color: $accent;
   font-weight: bold;
+ 
 
   .img {
     padding: 0 1rem;

@@ -55,11 +55,13 @@ function notify() {
 <style lang="scss" scoped>
 .wrap {
   height: 100%;
+  width: 100%;
 
   .image {
     height: 100%;
+    width: 100%;
     padding: 2rem;
-    background-image: url('img/background-header.webp');
+    background-image: url('public/img/background-header.webp');
     background-repeat: no-repeat;
     background-size: cover;
     @media screen and (max-width: 920px) {
@@ -73,7 +75,7 @@ function notify() {
 
 .whatsapp-button {
   position: fixed;
-  background-image: url(img/whatsapp.svg);
+  background-image: url('public/img/whatsapp.svg');
   background-size: contain;
   width: 5rem;
   background-repeat: no-repeat;
