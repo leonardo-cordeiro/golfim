@@ -61,7 +61,7 @@ function notify() {
     height: 100%;
     width: 100%;
     padding: 2rem;
-    background-image: url('img/background-header.webp?');
+    background-image: url('/img/background-header.webp?');
     background-repeat: no-repeat;
     background-size: cover;
     @media screen and (max-width: 920px) {
