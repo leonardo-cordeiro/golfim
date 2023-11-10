@@ -2,40 +2,47 @@
   <div class="wrap">
     <div class="content">
       <div class="flex q-mr-xl">
-      <h1 class="text-h3 text-info text-raleway ">
-        Troca de azulejos
-        <span style="text-decoration: underline">
-          <br>sem esvaziar
+        <h1 class="text-h3 text-info text-raleway">
+          Troca de azulejos
+          <span style="text-decoration: underline">
+            <br />
+            sem esvaziar
+            <br />
+            a piscina
+          </span>
+        </h1>
+        <p class="size-18 text-montserrat-400">
+          Para evitar desperdício de água, a troca de
           <br />
-          a piscina
-        </span>
-      </h1>
-      <p class="size-18 text-montserrat-400">
-        Para evitar desperdício de água, a troca de
-        <br />
-        azulejos para piscinas sem esvaziá-la é uma
-        <br />
-        ótima solução
-      </p>
-      <p class="size-18 q-mt-lg q-pt-lg text-montserrat-400">
-        Esse processo de fazer a troca de azulejos para
-        <br />
-        piscinas, sem esvaziá-la é necessário ter larga <br>experiência e treinamento como nós!
-      </p>
+          azulejos para piscinas sem esvaziá-la é uma
+          <br />
+          ótima solução
+        </p>
+        <p class="size-18 q-mt-lg q-pt-lg text-montserrat-400">
+          Esse processo de fazer a troca de azulejos para
+          <br />
+          piscinas, sem esvaziá-la é necessário ter larga
+          <br />
+          experiência e treinamento como nós!
+        </p>
         <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center q-ml-lg">
           <q-icon name="verified" size="lg" color="info" />
-          <span class="q-ml-sm">A troca de azulejos para piscinas é feita por <br>mergulhadores profissionais treinados.</span>
+          <span class="q-ml-sm">
+            A troca de azulejos para piscinas é feita por
+            <br />
+            mergulhadores profissionais treinados.
+          </span>
         </p>
 
         <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center q-ml-lg">
           <q-icon name="verified" size="lg" color="info" />
-          <span class="q-ml-lg">
+          <span class="q-ml-sm">
             Logo após a conclusão do trabalho, a piscina
             <br />
             já está liberada para uso normal.
           </span>
         </p>
-        
+
         <q-btn class="q-ml-xl q-my-md" rounded color="info">
           Quer saber como isso funciona?
           <br />
@@ -54,10 +61,9 @@
   width: 100%;
   background: url('/img/background-2.webp?');
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  
 
   .content {
     text-align: right;
@@ -70,9 +76,11 @@
   @media screen and (max-width: 600px) {
     .content {
       margin-left: 10%;
-      width: 90%; // 
+      width: 90%; //
+    }
+    .wrap{
+      background-size: contain;
     }
   }
-  
 }
 </style>

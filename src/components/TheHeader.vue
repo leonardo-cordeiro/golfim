@@ -8,10 +8,10 @@
             Reformas de
             <span style="text-decoration: underline">Piscinas</span>
           </h1>
-          <h2 class="text-h5 text-white text-montserrat" style="font-size: 1.3rem">
+          <h2 class="text-h5 text-white text-montserrat" >
             Consertos, Pinturas e Reformas de Piscinas com profissionais 100% qualificados!
           </h2>
-          <h3 class="text-h6 text-white text-bold text-montserrat" style="font-size: 0.95rem">
+          <h3 class="text-h6 text-white text-bold text-montserrat" >
             REPARO SUBMERSO: Trocamos os azulejos sem esvaziar a piscina.
           </h3>
         </div>
@@ -70,11 +70,30 @@ function notify() {
     background-image: url('/img/background-header.webp?');
     background-repeat: no-repeat;
     background-size: cover;
-    @media screen and (max-width: 920px) {
+
+      // Aumentar o tamanho do texto em telas pequenas
+      @media screen and (max-width: 920px) {
       padding: 5rem;
+
+      h2 {
+        font-size: 2.5rem; // Altere o tamanho conforme necessário
+      }
+
+      h3 {
+        font-size: 1.5rem; // Altere o tamanho conforme necessário
+      }
     }
+
     @media screen and (max-width: 600px) {
       padding: 2rem;
+
+      h2 {
+        font-size: 2rem; // Altere o tamanho conforme necessário
+      }
+
+      h3 {
+        font-size: 1.5rem; // Altere o tamanho conforme necessário
+      }
     }
   }
 }
@@ -119,4 +138,5 @@ function notify() {
   border-radius: 1rem;
   margin-left: 1.5rem;
 }
+
 </style>
