@@ -2,7 +2,7 @@
   <div class="wrap">
     <div class="image">
       <div class="row">
-        <div class="col-md-7 col-xs-12">
+        <div class="col-md-7 col-xs-12 q-pr-md">
           <q-img src="img/logo_golfim.webp" alt="logo" width="10rem" />
           <h1 class="text-white text-bold text-raleway" style="font-size: 3rem">
             Reformas de
@@ -22,17 +22,24 @@
               <h4 class="text-h5 text-secondary text-bold">Solicite um Orçamento</h4>
             </q-card-section>
 
-            <q-card-section class="q-px-lg text-center">
+            <q-card-section class="q-px-lg">
               <q-form class="q-gutter-y-sm" @submit="notify">
                 <q-input rounded v-model="name" outlined label="Nome Completo" :rules="[(val) => !!val || 'Insira seu Nome']" />
-
-                <q-btn rounded label="Enviar" color="primary" class="full-width" padding="14px" type="submit" />
+                <q-input
+                  rounded
+                  v-model="whatsapp"
+                  outlined
+                  label="Whatsapp"
+                  :rules="[(val) => !!val || 'Insira Seu Whatsapp']"
+                  mask="(##) #####-####"
+                />
+                <q-btn rounded label="Enviar" color="primary" class="full-width q-mb-xl" padding="14px" type="submit" />
               </q-form>
             </q-card-section>
           </q-card>
         </div>
         <a class="whatsapp-button" href="https://api.whatsapp.com/send?phone=5521964833479" target="_blank">
-          <q-img  src="/img/whatsapp.svg?"  loading="eager" alt="WhatsApp" />
+          <q-img src="/img/whatsapp.svg?" loading="eager" alt="WhatsApp" />
         </a>
       </div>
     </div>
@@ -59,7 +66,6 @@ function notify() {
 
   .image {
     height: 100%;
-    width: 100%;
     padding: 2rem;
     background-image: url('/img/background-header.webp?');
     background-repeat: no-repeat;
@@ -84,9 +90,6 @@ function notify() {
   z-index: 999;
   font-size: 3rem;
   animation: whatsapp-bounce 1s infinite;
-
-
-  
 
   @keyframes whatsapp-bounce {
     0%,

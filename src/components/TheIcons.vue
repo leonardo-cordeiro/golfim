@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-evenly items-center text-montserrat q-pb-xl q-pt-xl q-mt-xl q-mr-xl q-ml-xl">
+  <div class="tela flex justify-evenly items-center text-montserrat q-mt-xl q-mb-xl q-pb-xl q-pt-xl q-mt-xl q-mr-xl q-ml-xl">
     <div class="icon">
       <q-img class="img" src="img/icone-1.png" fit="contain" />
       <p>30 anos no mercado</p>
@@ -22,6 +22,10 @@
 <script setup></script>
 
 <style lang="scss" scoped>
+
+tela{
+  height: 100vh;
+}
 .icon {
   width: 10rem;
   max-width: 50%;

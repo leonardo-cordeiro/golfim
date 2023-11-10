@@ -22,20 +22,21 @@
         <br />
         piscinas, sem esvaziá-la é necessário ter larga <br>experiência e treinamento como nós!
       </p>
-        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center">
+        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center q-ml-lg">
           <q-icon name="verified" size="lg" color="info" />
           <span class="q-ml-sm">A troca de azulejos para piscinas é feita por <br>mergulhadores profissionais treinados.</span>
         </p>
 
-        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center">
+        <p class="text-montserrat text-bold size-16 text-left flex no-wrap items-center q-ml-lg">
           <q-icon name="verified" size="lg" color="info" />
-          <span class="q-ml-sm">
+          <span class="q-ml-lg">
             Logo após a conclusão do trabalho, a piscina
             <br />
             já está liberada para uso normal.
           </span>
         </p>
-        <q-btn class="q-ml-xl q-my-md"  rounded color="info">
+        
+        <q-btn class="q-ml-xl q-my-md" rounded color="info">
           Quer saber como isso funciona?
           <br />
           Fale Conosco
@@ -53,7 +54,10 @@
   width: 100%;
   background: url('/img/background-2.webp?');
   background-repeat: no-repeat;
-  background-size: cover; // Altere para "contain"
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  
 
   .content {
     text-align: right;
