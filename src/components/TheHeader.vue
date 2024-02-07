@@ -22,17 +22,11 @@
               <h4 class="text-h5 text-secondary text-bold">Solicite um Orçamento</h4>
             </q-card-section>
 
-            <q-card-section class="q-px-lg">
-              <q-form class="q-gutter-y-sm" @submit="notify">
+            <q-card-section class="q-px-xl">
+              <q-form class="q-gutter-y-sm" @submit="submitForm">
                 <q-input rounded v-model="name" outlined label="Nome Completo" :rules="[(val) => !!val || 'Insira seu Nome']" />
-                <q-input
-                  rounded
-                  v-model="whatsapp"
-                  outlined
-                  label="Whatsapp"
-                  :rules="[(val) => !!val || 'Insira Seu Whatsapp']"
-                  mask="(##) #####-####"
-                />
+                <q-input type="textarea" rounded v-model="message" outlined label="Como podemos ajudar?" />
+            
                 <q-btn rounded label="Enviar" color="primary" class="full-width q-mb-xl" padding="14px" type="submit" />
               </q-form>
             </q-card-section>
@@ -53,9 +47,13 @@ import { useQuasar } from 'quasar'
 
 const $q = useQuasar()
 const name = ref('')
+const message = ref('')
 
-function notify() {
-  $q.notify({ message: 'mensagem enviada com sucesso' })
+function submitForm() {
+  const whatsappText = `Olá, sou ${name.value}. Eu Quero solicitar o orçamento para: ${message.value}`
+  const whatsappLink = `https://api.whatsapp.com/send?phone=5521968437171&text=${encodeURIComponent(whatsappText)}`
+  window.open(whatsappLink, '_blank')
+  $q.notify({ message: 'Mensagem enviada com sucesso' })
 }
 </script>
 
