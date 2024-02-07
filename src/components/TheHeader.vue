@@ -50,8 +50,8 @@ const name = ref('')
 const message = ref('')
 
 function submitForm() {
-  const whatsappText = `Olá, sou ${name.value}. Eu Quero solicitar o orçamento para: ${message.value}`
-  const whatsappLink = `https://api.whatsapp.com/send?phone=5521968437171&text=${encodeURIComponent(whatsappText)}`
+  const whatsappText = `Olá, sou ${name.value}. Gostaria de solicitar um orçamento para: ${message.value}`
+  const whatsappLink = `https://api.whatsapp.com/send?phone=5521964833479&text=${encodeURIComponent(whatsappText)}`
   window.open(whatsappLink, '_blank')
   $q.notify({ message: 'Mensagem enviada com sucesso' })
 }
